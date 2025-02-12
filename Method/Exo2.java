@@ -1,45 +1,40 @@
+public class Exo2 {
+    public static void main(String[] args) {
+        Personne personne = new Personne("John", "24 Rue Jeanne d'Arc", 25);
+
+        personne.afficherNom();
+        personne.afficherAddresse();
+    }
+}
+
+
 public class Personne {
-    private String nom;
-    private int age;
-    private String adresse;
+    public String nom;
+    public String adresse;
+    public int age;
 
-    public Personne(String nom, int age, String adresse) {
+    public Personne(String nom, String adresse, int age) {
         this.nom = nom;
-        this.age = age;
         this.adresse = adresse;
+        this.age = age;
     }
 
-    public void afficherNom() {
-        System.out.println("Nom : " + nom);
+    public Void afficherNom () {
+        System.out.println(nom);
+        return null;
     }
 
-    private void changerNom(String nom) {
+    private void changerNom (String nom) {
         this.nom = nom;
     }
 
-    protected void afficherAge() {
-        System.out.println("Âge : " + age);
+    protected void afficherAge () {
+        System.out.println(age);
     }
 
-    void afficherAdresse() {
-        System.out.println("Adresse : " + adresse);
+    void afficherAddresse () {
+        System.out.println(adresse);
     }
-}
-public class Main {
-    public static void main(String[] args) {
-        Personne personne = new Personne("Alice", 30, "123 rue Principale");
 
-        personne.afficherNom();
-        personne.afficherAdresse();
 
-    }
-}
-public class TestPersonne {
-    public static void main(String[] args) {
-        Personne personne = new Personne("Bob", 25, "456 avenue Secondaire");
-
-        personne.afficherNom();
-        personne.afficherAge();
-        personne.afficherAdresse();
-    }
 }

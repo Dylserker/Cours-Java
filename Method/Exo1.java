@@ -1,14 +1,12 @@
-public class Addition {
-
-    public int calculerSomme(int a, int b) {
-        return a + b;
-    }
-
+public class Exo1 {
     public static void main(String[] args) {
-        Addition addition = new Addition();
+        Addition add = new Addition();
+        System.out.println(add.addition(10, 20));
+    }
+}
 
-        int resultat = addition.calculerSomme(5, 10);
-
-        System.out.println("La somme est : " + resultat);
+public class Addition {
+    public int addition( int a , int b ) {
+        return a + b;
     }
 }
