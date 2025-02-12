@@ -1,12 +1,4 @@
-public class Exo2 {
-    public static void main(String[] args) {
-        Personne personne = new Personne("John", "24 Rue Jeanne d'Arc", 25);
-
-        personne.afficherNom();
-        personne.afficherAddresse();
-    }
-}
-
+package Method;
 
 public class Personne {
     public String nom;
@@ -19,20 +11,20 @@ public class Personne {
         this.age = age;
     }
 
-    public Void afficherNom () {
+    public Void afficherNom() {
         System.out.println(nom);
         return null;
     }
 
-    private void changerNom (String nom) {
+    private void changerNom(String nom) {
         this.nom = nom;
     }
 
-    protected void afficherAge () {
+    protected void afficherAge() {
         System.out.println(age);
     }
 
-    void afficherAddresse () {
+    void afficherAddresse() {
         System.out.println(adresse);
     }
 

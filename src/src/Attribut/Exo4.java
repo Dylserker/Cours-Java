@@ -1,3 +1,4 @@
+package Attribut;
 public class Exo4 {
     private static int nombreDeComptes = 0;
 

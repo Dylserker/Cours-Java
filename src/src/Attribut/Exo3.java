@@ -1,7 +1,4 @@
-class Animal {
-    protected String nom;
-}
-
+package Attribut;
 public class Exo3 extends Animal {
     public void afficherNom() {
         System.out.println("Nom du chien : " + nom);

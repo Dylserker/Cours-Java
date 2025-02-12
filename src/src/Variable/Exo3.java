@@ -1,3 +1,4 @@
+package Variable;
 public class Exo3 {
     public static void main(String[] args) {
 

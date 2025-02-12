@@ -1,3 +1,4 @@
+package Method;
 public class Exo3 {
     public static void main(String[] args) {
         Calculatrice calc = new Calculatrice();

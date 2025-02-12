@@ -1,3 +1,4 @@
+package Attribut;
 public class Exo5 {
     private String marque;
 

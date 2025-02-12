@@ -1,3 +1,4 @@
+package Variable;
 public class Exo11 {
     public static void main(String[] args) {
         int compute42 = 6 * 7;

@@ -1,3 +1,4 @@
+package Attribut;
 public class Exo2 {
     public String titre;
 

@@ -1,3 +1,5 @@
+package Method;
+
 class Compteur {
     // Variable d'instance pour stocker la valeur du compteur
     private int compteur;
@@ -15,20 +17,5 @@ class Compteur {
     // Constructeur pour initialiser le compteur à zéro
     public Compteur() {
         compteur = 0;
-    }
-}
-
-// Classe principale avec la méthode main pour tester
-public class Main {
-    public static void main(String[] args) {
-        // Création d'un objet de la classe Compteur
-        Compteur monCompteur = new Compteur();
-
-        // Appel de la méthode d'instance pour incrémenter le compteur
-        monCompteur.incrementer(5); // Incrémente le compteur de 5
-        monCompteur.incrementer(10); // Incrémente le compteur de 10
-
-        // Appel de la méthode statique pour afficher la valeur du compteur
-        Compteur.afficherCompteur(monCompteur); // Affiche "Valeur du compteur : 15"
     }
 }

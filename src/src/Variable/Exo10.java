@@ -1,3 +1,4 @@
+package Variable;
 public class Exo10 {
     public static void main(String[] args) {
         Integer my42TypeInt = 42;

@@ -1,3 +1,4 @@
+package Variable;
 public class Exo12 {
     public static void main(String[] args) {
         String myString = "42424242";

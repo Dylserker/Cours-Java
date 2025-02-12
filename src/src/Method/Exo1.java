@@ -1,3 +1,5 @@
+package Method;
+
 public class Exo1 {
     public static void main(String[] args) {
         Addition add = new Addition();
@@ -5,8 +7,3 @@ public class Exo1 {
     }
 }
 
-public class Addition {
-    public int addition( int a , int b ) {
-        return a + b;
-    }
-}

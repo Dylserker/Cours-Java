@@ -1,3 +1,4 @@
+package Variable;
 import java.util.Objects;
 
 public class Exo5 {
